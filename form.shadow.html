@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>forms</title>
+    <style>
+      .div1 {
+        background-color: rgb(99, 96, 96);
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 500px;
+        height: 500px;
+        border: 0;
+        border-radius: 10px;
+        box-shadow: 19px 19px 10px rgb(31, 21, 21);
+      }
+      .div2 {
+        background-color: rgb(115, 206, 115);
+        margin: auto;
+        width: 450px;
+        height: 450px;
+        position: relative;
+        top: 25px;
+        border: 0;
+        border-radius: 10px;
+      }
+      .form1 {
+        border: 1px;
+        border-style: solid;
+        border-color: rgb(14, 10, 10);
+        border-radius: 10px;
+        direction: rtl;
+        padding: 20px;
+        position: relative;
+        top: 80px;
+        left: 25px;
+        display: inline-block;
+        background-color: rgb(202, 193, 193);
+        box-shadow: -20px 20px 25px rgb(32, 26, 26);
+        text-shadow: 5px 5px 4px rgb(32, 26, 26);
+      }
+      .in3 {
+        width: 90%;
+        position: relative;
+        right: 15px;
+      }
+      .in5 {
+        position: relative;
+        right: 100px;
+        width: 40%;
+        background-color: blue;
+        color: bisque;
+      }
+      body {
+        background-color: rgb(202, 86, 86);
+      }
+      .in6 {
+        width: 90%;
+      }
+      .legend1 {
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="div2">
+        <fieldset class="form1">
+          <legend class="legend1">اطلاعات فرد</legend>
+          <span class="span1">
+            <input type="text" id="in1" placeholder="نام" />
+            <input type="text" id="in2" placeholder="نام خانوادگی" />
+          </span>
+          <br />
+          <br />
+          <input type="email" class="in3" placeholder="ایمیل" />
+          <br />
+          <br />
+          <span class="span2">
+            <input type="password" class="in4" placeholder="پسوورد" />
+            <input type="password" class="in4" placeholder="تکرار پسوورد" />
+          </span>
+          <br />
+          <br />
+          <label for="in6">میزان رضایت شما از سایت :</label>
+          <br />
+          <input type="range" class="in6" id="in6" />
+          <br />
+          <br />
+          <input type="submit" class="in5" />
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
